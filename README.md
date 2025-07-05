@@ -12,6 +12,7 @@ Examples of U.S. bank stocks:
 * **JPM** – JPMorgan Chase
 * **BAC** – Bank of America
 * **WFC** – Wells Fargo
+* Added Apple and British Petroluem stocks
 
 ### ✅ 2. **Install and Import Libraries**
 
