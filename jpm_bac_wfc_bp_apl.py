@@ -33,4 +33,9 @@ monthly_total_volume.to_csv("stocks_monthly_volume_2007_2025.csv")
 merged_df = df[["Date", "Ticker", "Close", "Volume"]]
 all_data = pd.concat([all_data, merged_df])
 conn = sqlite3.connect("stocks_monthly_price.db")
+# save DF to SQL
+all_data.to_sql('stock_monthly', conn, if_exists='replace', index=False)
 
+# Commit and close
+conn.commit()
+conn.close()
