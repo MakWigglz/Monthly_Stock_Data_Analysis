@@ -1,0 +1,583 @@
+# gitignore
+# Operating System files
+.DS_Store
+Thumbs.db
+# Node.js dependencies
+node_modules/
+# Python cache
+__pycache__/
+*.py[cod]
+env/
+venv/
+# Build directories
+dist/
+build/
+# IDE files
+.idea/
+.vscode/
+# Logs
+*.log
+# Temporary files
+*.tmp
+*.temp
+*.bak
+# Environment variables
+.env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+
+usage/project/#working-with-version-control
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+# Ruff stuff:
+.ruff_cache/
+
+# PyPI configuration file
+.pypirc
+blob-store
+compile-cache
+dev
+storage
+.apm
+.node-gyp
+.npm
+.atom-socket-secret-*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# java
+*.class
+*.jar
+*.ser
+*.tmp
+/tmp/
+.maven/maven/
+target/
+*.war
+*.ear
+*.log
+*gradle/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.env
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors and IDEs
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# System Files
+.Trash/
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+temp/
+tmp/
+
+# Specific to your user directory (users/amakki)
+/Users/amakki/*/.DS_Store
+/Users/amakki/*/__pycache__/
+/Users/amakki/*/venv/
+/Users/amakki/*/env/
+/Users/amakki/*/.vscode/
+/Users/amakki/*/node_modules/
+/Users/amakki/*/.idea/
+/Users/amakki/*.log
+/Users/amakki/*.tmp
+/Users/amakki/*/dist/
+/Users/amakki/*/build/
+/Users/amakki/*/.pytest_cache/
+/Users/amakki/*/.mypy_cache/
+/Users/amakki/*/.DS_Store
+/Users/amakki/*/__pycache__/
+/Users/amakki/*/venv/
+/Users/amakki/*/env/
+/Users/amakki/*/.vscode/
+/Users/amakki/*/node_modules/
+/Users/amakki/*/.idea/
+/Users/amakki/*.log
+/Users/amakki/*.tmp
+/Users/amakki/*/dist/
+/Users/amakki/*/build/
+/Users/amakki/*/.pytest_cache/
+/Users/amakki/*/.mypy_cache/
+/Users/amakki/*.temp
+/Users/amakki/*/.mvn
+/Users/amakki/*/.gradle
+Users/amakki/*/.maven
+
+
+# General exclusions
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+temp/
+tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.env
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ipynb_checkpoints/ # Jupyter notebooks checkpoints
+.pytest_cache/
+htmlcov/ # Python coverage reports
+.venv/ # Another common virtual environment name
+pip-log.log
+pip-delete-this-directory.log
+
+# Java
+*.class
+*.jar
+*.ser
+/target/ # Covers .tmp, etc. inside target
+*.war
+*.ear
+.classpath
+.project
+.settings/
+.idea/ # Covered below, but good to have near Java too
+.gradle/
+.project
+.factorypath
+build/ # Gradle build directory
+out/ # IntelliJ output directory
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # If you're not committing this
+pnpm-debug.log*
+.parcel-cache/ # Parcel bundler cache
+dist/ # JavaScript/TypeScript build output (if not already covered)
+build/ # React/Vue build output (if not already covered)
+
+# Editors and IDEs
+.idea/
+*.iml
+.vscode/
+.vscode-test/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.kdev4 # KDevelop
+*.sublime-project # Sublime Text
+*.sublime-workspace
+.project # Eclipse
+.classpath # Eclipse
+.cproject # Eclipse
+.settings/ # Eclipse
+*.komodoproject # Komodo Edit
+
+# Operating System specific (beyond macOS, already covered)
+# Linux
+*.orig
+*.swp
+
+# Visual Studio / Visual Studio Code
+*.vs/
+*.vssscc
+*.user
+*.bak
+*.docstates
+
+# Database related
+*.sqlite3
+*.db
+*.sqlite
+*.sql
+*.mysql
+*.psql
+*.dump
+data/*.db # Specific to a 'data' folder for DB files
+
+# Coverage and testing
+/.nyc_output/
+/coverage/
+.coverage
+.coverage.*
+
+# Miscellaneous common patterns
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.log
+*.csv # If CSVs are generated and not source data
+*.json # If JSON files are generated (e.g., API responses) and not source data
+
+# Sensitive information (e.g., API keys, credentials)
+# Always ensure these are stored securely (e.g., environment variables) and not committed.
+*.key
+*.pem
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+.editorconfig
+.gitattributes
+.tool-versions
+.dockerignore
+.terraform/
+.terraform.lock.hcl
+*.tfplan
+*.tfstate
+*.tfstate.backup
+
+**/.Users/amakki/*/.DS_Store
+**/.Users/amakki/*/__pycache__/
+**/.Users/amakki/*/venv/
+**/.Users/amakki/*/env/
+**/.Users/amakki/*/.vscode/
+**/.Users/amakki/*/node_modules/
+**/.Users/amakki/*/.idea/
+**/.Users/amakki/*.log
+**/.Users/amakki/*.tmp
+**/.Users/amakki/*/dist/
+**/.Users/amakki/*/build/
+**/.Users/amakki/*/.pytest_cache/
+**/.Users/amakki/*/.mypy_cache/
+**/.Users/amakki/*.temp
+**/.Users/amakki/*/.mvn
+**/.Users/amakki/*/.gradle
+**/.Users/amakki/*/.maven
